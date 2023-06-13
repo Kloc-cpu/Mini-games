@@ -1,0 +1,19 @@
+﻿  main.cpp
+C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(109,87): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=unsigned int
+          ]
+C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(183,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(183,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(190,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(190,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(196,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(202,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(208,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(208,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(131,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(131,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(133,78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(133,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  Multigame.vcxproj -> C:\Users\KlemenZukovec\Desktop\Multigame\x64\Debug\Multigame.exe
