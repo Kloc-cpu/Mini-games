@@ -5,8 +5,9 @@
 #include <algorithm>
 #include <iostream>
 #include <map>
-
 using namespace std;
+using namespace sf;
+
 constexpr auto BOT_ID = 0;
 constexpr auto PLAYER_ID = 1;
 
@@ -78,8 +79,8 @@ private:
 public:
     int board[3][3];
     int winner;
-    vector<sf::CircleShape> circles;
-    vector<sf::VertexArray> verts;
+    vector<CircleShape> circles;
+    vector<VertexArray> verts;
 
     GameLogic();
 

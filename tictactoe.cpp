@@ -4,26 +4,26 @@
 
 
 
-sf::CircleShape construct_circle_at(int i) {
+CircleShape construct_circle_at(int i) {
     int row = i / 3;
     int col = i % 3;
-    sf::CircleShape circle(90.f);
-    circle.setFillColor(sf::Color::Black);
-    circle.setOutlineColor(sf::Color::Black);
+    CircleShape circle(90.f);
+    circle.setFillColor(Color::Black);
+    circle.setOutlineColor(Color::Black);
     circle.setOutlineThickness(10.f);
-    circle.setPosition(sf::Vector2f(row * 235.f + 600.f + 27.f, col * 235.f + 180.f + 27.f));
+    circle.setPosition(Vector2f(row * 235.f + 600.f + 27.f, col * 235.f + 180.f + 27.f));
     return circle;
 }
 
 
-sf::CircleShape construct_circle_at_bot(int i) {
+CircleShape construct_circle_at_bot(int i) {
     int row = i / 3;
     int col = i % 3;
-    sf::CircleShape circle(90.f);
-    circle.setFillColor(sf::Color::Transparent);
-    circle.setOutlineColor(sf::Color::Black);
+    CircleShape circle(90.f);
+    circle.setFillColor(Color::Transparent);
+    circle.setOutlineColor(Color::Black);
     circle.setOutlineThickness(10.f);
-    circle.setPosition(sf::Vector2f(row * 235.f + 600.f + 27.f, col * 235.f + 180.f + 27.f));
+    circle.setPosition(Vector2f(row * 235.f + 600.f + 27.f, col * 235.f + 180.f + 27.f));
     return circle;
 }
 

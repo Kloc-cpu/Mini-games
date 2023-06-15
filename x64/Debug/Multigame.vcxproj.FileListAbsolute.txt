@@ -1,1 +1,2 @@
 C:\Users\KlemenZukovec\Desktop\Multigame\x64\Debug\Multigame.exe
+C:\Users\KlemenZukovec\Desktop\Mini-games\x64\Debug\Multigame.exe

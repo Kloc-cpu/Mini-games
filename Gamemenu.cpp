@@ -22,28 +22,24 @@ GameMenu::GameMenu(float width, float height)
 	selectionmenu[1].setPosition(500, 310);
 	//game3
 	selectionmenu[2].setFont(font);
+
 	selectionmenu[2].setFillColor(Color::White);
-	selectionmenu[2].setString("lorem ipsum");
+	selectionmenu[2].setString("Pong");
 	selectionmenu[2].setCharacterSize(40);
 	selectionmenu[2].setPosition(855, 310);
-	//game4
-	selectionmenu[3].setFont(font);
-	selectionmenu[3].setFillColor(Color::White);
-	selectionmenu[3].setString("lorem ipsum");
-	selectionmenu[3].setCharacterSize(40);
-	selectionmenu[3].setPosition(1210, 310);
-	//game5
-	selectionmenu[4].setFont(font2);
-	selectionmenu[4].setFillColor(Color::White);
-	selectionmenu[4].setString("When in game press escape or close the window to come back to this menu");
-	selectionmenu[4].setCharacterSize(40);
-	selectionmenu[4].setPosition(250, 900);
 
-	selectionmenu[5].setFont(font);
-	selectionmenu[5].setFillColor(Color::White);
-	selectionmenu[5].setString("Pick a path");
-	selectionmenu[5].setCharacterSize(70);
-	selectionmenu[5].setPosition(120, 120);
+	//game5
+	selectionmenu[3].setFont(font2);
+	selectionmenu[3].setFillColor(Color::White);
+	selectionmenu[3].setString("When in game press escape or close the window to come back to this menu");
+	selectionmenu[3].setCharacterSize(40);
+	selectionmenu[3].setPosition(250, 900);
+
+	selectionmenu[4].setFont(font);
+	selectionmenu[4].setFillColor(Color::White);
+	selectionmenu[4].setString("Pick a path");
+	selectionmenu[4].setCharacterSize(70);
+	selectionmenu[4].setPosition(120, 120);
 
 	selected = 0;
 }
@@ -65,11 +61,11 @@ void GameMenu::draw(RenderWindow& window)
 
 void GameMenu::MoveRight()
 {
-	if (selected + 1 <= 4)
+	if (selected + 1 <= 3)
 	{
 		selectionmenu[selected].setFillColor(Color::White);
 		selected++;
-		if (selected == 4)
+		if (selected == 3)
 		{
 			selected = 0;
 		}
@@ -85,7 +81,7 @@ void GameMenu::MoveLeft()
 		selected--;
 		if (selected == -1)
 		{
-			selected = 3;
+			selected = 2;
 		}
 		selectionmenu[selected].setFillColor(Color::Black);
 

@@ -4,6 +4,8 @@
 #include <stack>
 #include <iostream>
 #include <random>
+using namespace std;
+using namespace sf;
 
 #define SIZE 30
 #define CELL_WIDTH 20
@@ -22,7 +24,7 @@ public:
 
     Cell();
     Cell(int, int);
-    void draw(sf::RenderWindow* window);
+    void draw(RenderWindow* window);
 };
 
 
@@ -121,10 +123,10 @@ void makeMaze(Cell* maze, int size) {
 
     }
 }
-void handleMove(sf::Event event, Cell* maze, int* currentPos, int size) {
+void handleMove(Event event, Cell* maze, int* currentPos, int size) {
     if (
-        event.key.code == sf::Keyboard::Left ||
-        event.key.code == sf::Keyboard::H
+        event.key.code == Keyboard::Left ||
+        event.key.code == Keyboard::H
         ) {
         if (!maze[*currentPos].walls[3] && !maze[*currentPos - 1].walls[1]) {
             *currentPos = *currentPos - 1;
@@ -133,8 +135,8 @@ void handleMove(sf::Event event, Cell* maze, int* currentPos, int size) {
         }
     }
     else if (
-        event.key.code == sf::Keyboard::Right ||
-        event.key.code == sf::Keyboard::L
+        event.key.code == Keyboard::Right ||
+        event.key.code == Keyboard::L
         ) {
         if (!maze[*currentPos].walls[1] && !maze[*currentPos + 1].walls[3]) {
             *currentPos = *currentPos + 1;
@@ -142,8 +144,8 @@ void handleMove(sf::Event event, Cell* maze, int* currentPos, int size) {
         }
     }
     else if (
-        event.key.code == sf::Keyboard::Up ||
-        event.key.code == sf::Keyboard::K
+        event.key.code == Keyboard::Up ||
+        event.key.code == Keyboard::K
         ) {
         if ((*currentPos - size) < 0) {
             return;
@@ -154,8 +156,8 @@ void handleMove(sf::Event event, Cell* maze, int* currentPos, int size) {
         }
     }
     else if (
-        event.key.code == sf::Keyboard::Down ||
-        event.key.code == sf::Keyboard::J
+        event.key.code == Keyboard::Down ||
+        event.key.code == Keyboard::J
         ) {
         if ((*currentPos + size) > size * size) {
             return;
@@ -174,37 +176,37 @@ Cell::Cell(int _x, int _y) {
     y = _y;
 }
 
-void Cell::draw(sf::RenderWindow* window) {
-    sf::RectangleShape rect;
+void Cell::draw(RenderWindow* window) {
+    RectangleShape rect;
 
     if (isActive) {
-        rect.setFillColor(sf::Color(247, 23, 53));
-        rect.setSize(sf::Vector2f(size, size));
+        rect.setFillColor(Color(247, 23, 53));
+        rect.setSize(Vector2f(size, size));
         rect.setPosition(x, y);
         window->draw(rect);
     }
-    rect.setFillColor(sf::Color(223, 243, 228));
+    rect.setFillColor(Color(223, 243, 228));
 
     if (walls[0]) {
-        rect.setSize(sf::Vector2f(size, thickness));
+        rect.setSize(Vector2f(size, thickness));
         rect.setPosition(x, y);
         window->draw(rect);
     }
     // right
     if (walls[1]) {
-        rect.setSize(sf::Vector2f(thickness, size));
+        rect.setSize(Vector2f(thickness, size));
         rect.setPosition(x + size, y);
         window->draw(rect);
     }
     // bottom
     if (walls[2]) {
-        rect.setSize(sf::Vector2f(size + thickness, thickness));
+        rect.setSize(Vector2f(size + thickness, thickness));
         rect.setPosition(x, y + size);
         window->draw(rect);
     }
     // left
     if (walls[3]) {
-        rect.setSize(sf::Vector2f(thickness, size));
+        rect.setSize(Vector2f(thickness, size));
         rect.setPosition(x, y);
         window->draw(rect);
     }

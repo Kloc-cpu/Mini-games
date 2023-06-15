@@ -8,7 +8,7 @@ using namespace sf;
 class GameMenu
 {
 public:
-	Text selectionmenu[6];
+	Text selectionmenu[5];
 	GameMenu(float width, float height);
 	void draw(RenderWindow& window);
 	void MoveLeft();

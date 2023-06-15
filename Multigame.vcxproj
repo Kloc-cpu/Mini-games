@@ -153,6 +153,8 @@
     <ClInclude Include="Menu.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="pong.cpp" />
+    <ClCompile Include="pong.h" />
     <ClCompile Include="tictactoe.cpp" />
     <ClCompile Include="Gamemenu.cpp" />
     <ClCompile Include="main.cpp" />

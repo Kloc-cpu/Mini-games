@@ -1,27 +1,30 @@
-﻿  Gamemenu.cpp
-  main.cpp
-C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(109,87): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
+﻿  main.cpp
+C:\Users\KlemenZukovec\Desktop\Mini-games\maze.h(111,87): warning C4267: 'argument': conversion from 'size_t' to '_Ty', possible loss of data
           with
           [
               _Ty=unsigned int
           ]
-C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(183,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(183,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(190,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(190,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(196,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(202,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(208,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\maze.h(208,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(136,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(136,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(138,78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(138,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
-C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(387,25): warning C4553: '==': result of expression not used; did you intend '='?
-C:\Users\KlemenZukovec\Desktop\Multigame\main.cpp(395,25): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\KlemenZukovec\Desktop\Mini-games\maze.h(185,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\maze.h(185,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\maze.h(192,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\maze.h(192,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\maze.h(198,36): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\maze.h(204,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\maze.h(210,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\maze.h(210,26): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(139,72): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(139,52): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(141,78): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(141,53): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(390,25): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(398,25): warning C4553: '==': result of expression not used; did you intend '='?
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(446,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(448,41): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(450,42): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\KlemenZukovec\Desktop\Mini-games\main.cpp(452,41): warning C4305: 'argument': truncation from 'double' to 'float'
   Generating code
-  3 of 491 functions ( 0.6%) were compiled, the rest were copied from previous compilation.
+  1 of 572 functions ( 0.2%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
-    1 functions had inline decision re-evaluated but remain unchanged
+    0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Multigame.vcxproj -> C:\Users\KlemenZukovec\Desktop\Multigame\x64\Release\Multigame.exe
+  Multigame.vcxproj -> C:\Users\KlemenZukovec\Desktop\Mini-games\x64\Release\Multigame.exe
