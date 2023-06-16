@@ -25,7 +25,7 @@ PongGame::PongGame() :
     ball.setPosition(400, 300);
 }
 
-void PongGame::run()
+void PongGame::Run()
 {
     this_thread::sleep_for(chrono::seconds(1));
 
@@ -79,8 +79,8 @@ void PongGame::update()
         ballSpeedX = -ballSpeedX;
         if (isFirstBounce == true)
         {
-            ballSpeedX = -5;
-            ballSpeedY = 3.5;
+            ballSpeedX = -2;
+            ballSpeedY = 2.5;
             isFirstBounce = false;
         }
     }

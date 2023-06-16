@@ -1,0 +1,3 @@
+Klemen:   Wins: 0, Loses: 2, Ties: 1
+jonny:   Wins: 0, Loses: 2, Ties: 1
+Klemen:   Wins: 0, Loses: 3, Ties: 0

@@ -153,6 +153,7 @@
     <ClInclude Include="Menu.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="maze.cpp" />
     <ClCompile Include="pong.cpp" />
     <ClCompile Include="pong.h" />
     <ClCompile Include="tictactoe.cpp" />

@@ -7,7 +7,7 @@ using namespace sf;
 class PongGame {
 public:
     PongGame();
-    void run();
+    void Run();
     bool isFirstBounce;
 
 private:

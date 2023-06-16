@@ -17,7 +17,7 @@ GameMenu::GameMenu(float width, float height)
 	//game2
 	selectionmenu[1].setFont(font);
 	selectionmenu[1].setFillColor(Color::White);
-	selectionmenu[1].setString("Maze runner");
+	selectionmenu[1].setString("Maze Runner");
 	selectionmenu[1].setCharacterSize(40);
 	selectionmenu[1].setPosition(500, 310);
 	//game3

@@ -15,6 +15,11 @@ constexpr auto PLAYER_ID = 1;
 
 class GameLogic {
 private:
+    int tieScore;
+    int botScore;
+    int playerScore;
+
+
     pair<int, bool> game_state(int board[3][3]) {
         int winner = -1;
         for (int i = 0; i < 3; ++i) {
@@ -75,24 +80,30 @@ private:
             return p1.first > p2.first;
             });
         return possible_moves[0];
+
+        
     }
+    
 public:
     int board[3][3];
     int winner;
     vector<CircleShape> circles;
     vector<VertexArray> verts;
+    string playerName;
+    
+    int Run();
 
     GameLogic();
 
-    void reset_game();
+    void Reset_game();
 
-    bool finished_game();
+    bool Finished_game();
 
-    bool apply_player_move(int i);
+    bool Apply_player_move(int i);
 
-    bool apply_bot_move();
+    bool Apply_bot_move();
 
-    bool perform_game_turn(int i);
+    bool Perform_game_turn(int i);
 
 };
 
