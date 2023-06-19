@@ -52,16 +52,16 @@ void PongGame::processEvents()
     }
 
     if (Keyboard::isKeyPressed(Keyboard::W) && paddle1.getPosition().y > 0)
-        paddle1.move(0, -3.5);
+        paddle1.move(0, -1.5);
 
     if (Keyboard::isKeyPressed(Keyboard::S) && paddle1.getPosition().y + paddle1.getSize().y < window.getSize().y)
-        paddle1.move(0, 3.5);
+        paddle1.move(0, 1.5);
 
     if (Keyboard::isKeyPressed(Keyboard::Up) && paddle2.getPosition().y > 0)
-        paddle2.move(0, -3.5);
+        paddle2.move(0, -1.5);
 
     if (Keyboard::isKeyPressed(Keyboard::Down) && paddle2.getPosition().y + paddle2.getSize().y < window.getSize().y)
-        paddle2.move(0, 3.5);
+        paddle2.move(0, 1.5);
 }
 
 void PongGame::update()
@@ -79,8 +79,8 @@ void PongGame::update()
         ballSpeedX = -ballSpeedX;
         if (isFirstBounce == true)
         {
-            ballSpeedX = -2;
-            ballSpeedY = 2.5;
+            ballSpeedX = -0.7;
+            ballSpeedY = 1;
             isFirstBounce = false;
         }
     }

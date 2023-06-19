@@ -1,0 +1,4 @@
+asd:   Wins: 0, Loses: 0, Ties: 0
+a:   Wins: 0, Loses: 0, Ties: 0
+asd:   Wins: 0, Loses: 2, Ties: 0
+a:   Wins: 0, Loses: 0, Ties: 0
